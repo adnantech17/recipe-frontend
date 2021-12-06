@@ -1,0 +1,44 @@
+.footerBlock {
+  background: #333;
+}
+
+.footerComponents {
+  background: #333;
+  display: flex;
+  width: 90%;
+  max-width: 1440px;
+  margin: auto;
+  color: white;
+}
+
+.footerComponent {
+  flex: 1;
+  margin: 3rem;
+}
+
+.footerContact {
+  margin-top: 0.8rem;
+}
+
+.footerIcon {
+  margin-right: 0.5rem;
+}
+
+.footerSocialIcon {
+  font-size: 40px;
+  margin: 10px;
+  color: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footerSocialIcon:hover {
+  color: rgb(147, 190, 255);
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
